@@ -15,7 +15,7 @@ db.app = app
 db.init_app(app)
 migrate = Migrate(app,db)
 
-
+# 4fdgdffg
 @app.route("/api/customers")
 def apiCustomers():
     lista = []
